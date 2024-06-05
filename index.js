@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+  alert("Hello, World from cdn!");
   function rotateClock5Hands() {
     const now = new Date();
     const hours = now.getHours();
